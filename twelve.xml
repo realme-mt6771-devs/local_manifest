@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="realme-mt6771"
+           fetch="https://github.com/realme-mt6771-devs"
+           revision="twelve"/>
+
+ <!-- Device Trees -->
+  <project path="device/realme/RMX1831" name="android_device_realme_RMX1831" remote="realme-mt6771"/>
+  <project path="device/oppo/CPH1859" name="android_device_oppo_CPH1859" remote="realme-mt6771"/>
+  <project path="device/realme/mt6771-common" name="android_device_realme_mt6771-common" remote="realme-mt6771"/>
+ 
+ <!-- Kernel -->
+  <project path="kernel/realme/mt6771" name="android_kernel_realme_mt6771" remote="realme-mt6771"/>
+
+ <!-- Vendor Trees -->
+  <project path="vendor/realme/RMX1831" name="android_vendor_realme_RMX1831" remote="realme-mt6771"/>
+  <project path="vendor/oppo/CPH1859" name="android_vendor_oppo_CPH1859" remote="realme-mt6771"/>
+  
+ <!-- Extras -->
+  <project path="device/mediatek/sepolicy_vndr" name="StatiXOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="sc"/>
+
+</manifest>
