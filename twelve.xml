@@ -18,6 +18,6 @@
   <project path="vendor/oppo/CPH1859" name="android_vendor_oppo_CPH1859" remote="realme-mt6771"/>
   
  <!-- Extras -->
-  <project path="device/mediatek/sepolicy_vndr" name="StatiXOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="sc"/>
+  <project path="device/mediatek/sepolicy_vndr" name="CorvusRom-Devices/device_mediatek_sepolicy_vndr" remote="github" revision="twelve"/>
   <project path="prebuilts/clang/host/linux-x86/clang-r353983c1" name="Meghthedev/clang-r353983c1" remote="github" revision="master"/>
 </manifest>
